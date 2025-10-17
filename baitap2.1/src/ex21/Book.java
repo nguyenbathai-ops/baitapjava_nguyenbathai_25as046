@@ -1,17 +1,17 @@
 package ex21;
 
-public class book {
+public class Book {
     private String name;
     private Author author;
     private int qty = 0;
     private double price;
 
-    public book(String name, Author author, double price) {
+    public Book(String name, Author author, double price) {
         this.name=name;
         this.author=author;
         this.price=price;
     }
-    public book(String name, Author author, double price,int qty) {
+    public Book(String name, Author author, double price,int qty) {
         this.name=name;
         this.author=author;
         this.price=price;
@@ -44,6 +44,6 @@ public class book {
 
     @Override
     public String toString() {
-        return "ex21.book{" + "name='" + name + '\'' + ", author=" + author + ", qty=" + qty + ", price=" + price + '}';
+        return "ex21.Book{" + "name='" + name + '\'' + ", author=" + author + ", qty=" + qty + ", price=" + price + '}';
     }
 }
